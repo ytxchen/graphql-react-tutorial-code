@@ -1,0 +1,33 @@
+body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+#main h1 {
+    color: #444;
+    text-align: center;
+}
+
+#main {
+    padding: 0px;
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+}
+
+#book-list {
+    padding: 0;
+}
+
+#book-list li {
+    display: inline-block;
+    margin: 12px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #880e4f;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    color: #880e4f;
+}
+
+
